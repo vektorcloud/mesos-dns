@@ -1,4 +1,4 @@
-FROM quay.io/vektorcloud/base
+FROM quay.io/vektorcloud/base:3.4
 
 ENV MESOS_DNS_VERSION v0.6.0
 ENV GLIBC_VERSION 2.23-r3
