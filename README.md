@@ -12,4 +12,4 @@ Create [config.json](https://mesosphere.github.io/mesos-dns/docs/configuration-p
  
     docker run --rm --net host -it -v $PWD/config.json:/config.json quay.io/vektorcloud/mesos-dns
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/mesos-dns.svg "mesos-dns"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/mesos-dns?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "mesos-dns"
