@@ -7,7 +7,7 @@ RUN go get github.com/mesosphere/mesos-dns \
   && git checkout $VERSION \
   && go build -o /tmp/mesos-dns
 
-FROM quay.io/vektorcloud/base:3.7
+FROM quay.io/vektorcloud/base:3.9
 
 COPY --from=build /tmp/mesos-dns /bin/mesos-dns
 
